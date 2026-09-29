@@ -29,7 +29,7 @@ def read_natural_number():
                 return n
 
         except ValueError:
-            print("Please enter a valid integer.")
+            print("Please enter a valid number.")
 
 n = read_natural_number()
 answer= twin_primes_greater_than(n)

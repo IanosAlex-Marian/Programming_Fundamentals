@@ -9,7 +9,7 @@ def is_perfect(x):
     return SumOfDivisors == x
 
 def biggest_perfect_number_smaller_than(n):
-    for x in range(n, 1, -1):
+    for x in range(n-1, 1, -1):
         if is_perfect(x):
             return x
 

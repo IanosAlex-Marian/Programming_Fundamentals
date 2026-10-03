@@ -20,7 +20,7 @@ def read_natural_number():
         try:
             n = int(input("Enter a natural number: "))
 
-            if n <= 0:
+            if n < 0:
                 print("Please enter a natural number (0 or greater).")
             else:
                 return n
